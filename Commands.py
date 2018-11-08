@@ -23,7 +23,9 @@ print(phrase.lower())
 print(phrase.isupper())
 # Inserted .isupper after variable to check whether variable case is true.
 print(phrase.islower())
+# Inserted .islower after variable to check whether variable case is true for only lower values.
 print(phrase.upper().isupper())
+# Inserted phrase plus .upper() to convert into upper case and .isupper() to check whether true.
 print(phrase.lower().islower())
 print(len(phrase))
 print(phrase.lower().islower())
