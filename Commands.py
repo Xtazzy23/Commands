@@ -16,9 +16,12 @@ print("Ata\ncons Ltd.")
 print(phrase + " is very great\ncompany ")
 print("There is a \nbest company named " + phrase)
 print(phrase.lower ())
+# Inserted .lower after variable to change to lower case
 print(phrase.upper())
+# Inserted .upper after variable to change to upper case
 print(phrase.lower())
 print(phrase.isupper())
+# Inserted .isupper after variable to check whether variable case is true.
 print(phrase.islower())
 print(phrase.upper().isupper())
 print(phrase.lower().islower())
